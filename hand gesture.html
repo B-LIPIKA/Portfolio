@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hand Gesture Recognition Project</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fb;
+      color: #222;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .project-title {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #304ffe;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .project-image {
+      width: 80%;
+      max-width: 500px;
+      border-radius: 10px;
+      margin: 20px auto;
+      display: block;
+    }
+
+    .description {
+      font-size: 1.1rem;
+      margin: 30px 0;
+      line-height: 1.7;
+    }
+
+    .button-group {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .btn {
+      background-color: #304ffe;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #1a34d4;
+    }
+
+    @media (max-width: 600px) {
+      .project-title {
+        font-size: 2rem;
+      }
+
+      .description {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="project-title">Hand Gesture Recognition Whiteboard</h1>
+    <p class="subtitle">AI-powered virtual whiteboard using hand gestures</p>
+
+    <img src="assets/images/download.webp" alt="Hand Gesture Project" class="project-image" />
+
+    <p class="description">
+      This project uses a webcam to track and recognize hand gestures, allowing users to write or draw on a virtual screen in real time. It's built with Python, OpenCV, and Mediapipe. Ideal for smart classrooms, creative tools, or hands-free control systems.
+    </p>
+
+    <div class="button-group">
+   <a class="btn" href="https://github.com/B-LIPIKA/Air-Board.git" target="_blank">View Code</a>
+      <a class="btn" href="index.html#portfolio">Back to Portfolio</a>
+    </div>
+  </div>
+</body>
+</html>

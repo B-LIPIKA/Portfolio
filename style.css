@@ -22,7 +22,8 @@
 
   --cadet-blue-crayola: hsl(240, 10%, 70%);
   --gold-web-golden: hsl(50, 100%, 54%);
-  --vivid-sky-blue: hsl(196, 84%, 63%);
+  --vivid-sky-blue: hsl(196, 84%, 6
+  3%);
   --midnight-blue: hsl(231, 83%, 25%);
   --minion-yellow: hsl(50, 100%, 64%);
   --independence: hsl(225, 24%, 27%);
@@ -142,12 +143,14 @@ address { font-style: normal; }
 
 html {
   font-size: 10px;
+  
   font-family: var(--ff-open-sans);
   scroll-behavior: smooth;
 }
 
 body {
   background-color: var(--space-cadet);
+ 
   color: var(--cadet-blue-crayola);
   font-size: 1.6rem;
   line-height: 1.6;
@@ -295,6 +298,9 @@ body {
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
 
 
 
@@ -306,13 +312,14 @@ body {
 .rotate-img { display: none; }
 
 .hero {
-  background-image: url("../images/hero-bg.jpg");
-  background-repeat: no-repeat;
+  background-image: url(assets/images/pexels-codioful-7135057.jpg);
   background-size: cover;
   background-position: center;
   padding-block: 100px var(--section-padding);
   min-height: 100vh;
-  display: grid;
+  display: flex;
+ 
+  top: 0;
   place-items: center;
 }
 
@@ -480,6 +487,35 @@ body {
   border-radius: inherit;
 }
 
+/* Email status message styling */
+#status-msg {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  z-index: 9999;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+#status-msg.fade {
+  display: block;
+  opacity: 1;
+}
+
+#status-msg.success {
+  background-color: #4caf50;
+  color: white;
+}
+
+#status-msg.error {
+  background-color: #f44336;
+  color: white;
+}
 
 
 
@@ -487,17 +523,42 @@ body {
 /*-----------------------------------*\
   #CONTACT
 \*-----------------------------------*/
+.status-message {
+  margin-top: 1rem;
+  font-weight: bold;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
 
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+}
 .contact-card {
-  background-color: var(--midnight-blue);
+  background-color: rgb(75, 42, 84);
   padding: 50px 25px;
   border-radius: var(--radius-20);
 }
 
 .contact-card .card-subtitle {
-  color: var(--orange-soda);
+  color: rgb(200, 221, 245);
   font-family: var(--ff-barlow);
-  font-size: var(--fs-4);
+  font-size: var(--fs-3);
   font-weight: var(--fw-600);
 }
 

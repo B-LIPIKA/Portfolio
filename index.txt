@@ -1,10 +1,10 @@
-Ethan Ward - Web Developer from New York
+B.LIPIKA - Web Developer from India
 
 
 
 #---------- HEADER ----------#
 
-Ethan Ward
+B.LIPIKA
 
 aria-label = Toggle Menu
 
@@ -24,7 +24,7 @@ Download CV
 
 #---------- HERO ----------#
 
-alt = Ethan's Photo
+alt = LIPIKA's Photo
 
 12
 Years of Success
@@ -34,15 +34,15 @@ Projects Completed
 
 <ion-icon name="trophy"></ion-icon>
 
-alt = I'm developer from New York
+alt = I'm developer from India
 
 Hello I'm
 
-Ethan Ward
+B.LIPIKA
 
-Web Developer from New York
+Web Developer from India
 
-Adipisicing elit. Neque nulla voluptatum eos repellat deserunt nesciunt tempore porro totam.
+An aspiring engineering student with a passion for tackling complex challenges and innovating solutions. Currently enrolled in Canara engineering college,I bring a strong foundation in CSE steam Information science and a proficiency in Skills/Programming Languages. Eager to apply my knowledge and hands-on experience gained through various projects, internships, and coursework. I am committed to pushing the boundaries of technology and contributing to advancements in the field.
 
 Get a Quote
 
@@ -52,9 +52,9 @@ About Me
 
 #---------- ABOUT ----------#
 
-alt = Ethan's Photo
+alt = lipi Photo
 
-alt = Ethan's Photo
+alt = lipi Photo
 
 <ion-icon name="logo-css3"></ion-icon>
 <ion-icon name="logo-javascript"></ion-icon>
@@ -64,9 +64,7 @@ I'm a Developer
 
 I Develop Application that Help People
 
-Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu epteur sint occaecat cupidatat
-
-Krnon proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
+Currently enrolled in Canara engineering college,I bring a strong foundation in CSE steam Information science and a proficiency in Skills/Programming Languages. Eager to apply my knowledge and hands-on experience gained through various projects, internships, and coursework. I am committed to pushing the boundaries of technology and contributing to advancements in the field.
 
 View Portfolio
 
@@ -76,7 +74,7 @@ View Portfolio
 
 Portfolio
 
-My Amazing Works
+My Works
 
 Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
 
@@ -103,29 +101,29 @@ I Develop Skills Regularly
 
 Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
 
-CSS
-95%
-
-React
-75%
-
-MongoDB
-90%
-
-Python
-70%
-
-PHP
+HTML
 80%
 
-JavaScript
-75%
+CSS
+90%
+
+C
+90%
+
+JAVA
+70%
+
+DATA VISUVALIZATION
+80%
+
+JAVASCRIPT
+50%
 
 
 
 #---------- CONTACT ----------#
 
-Don't be shy
+Contact Me
 
 Drop Me a Line
 
