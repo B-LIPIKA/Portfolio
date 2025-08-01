@@ -123,7 +123,7 @@ img { height: auto; }
 
 ion-icon {
   pointer-events: none;
-  color: var(--white);
+  color: var(--black);
 }
 
 button,
@@ -151,7 +151,7 @@ html {
 body {
   background-color: var(--space-cadet);
  
-  color: var(--cadet-blue-crayola);
+  color: var(--white);
   font-size: 1.6rem;
   line-height: 1.6;
   overflow-x: hidden;
@@ -546,17 +546,17 @@ html {
 #contact-form input,
 #contact-form textarea {
   padding: 10px;
-  border: 3px solid #ccc;
+  border: 3px solid #474545;
   border-radius: 5px;
 }
 .contact-card {
-  background-color: rgb(75, 42, 84);
+  background-color: rgb(151, 151, 196);
   padding: 50px 25px;
   border-radius: var(--radius-20);
 }
 
 .contact-card .card-subtitle {
-  color: rgb(200, 221, 245);
+  color: rgb(37, 40, 43);
   font-family: var(--ff-barlow);
   font-size: var(--fs-3);
   font-weight: var(--fw-600);
@@ -571,7 +571,7 @@ html {
 
 .contact-input {
   background-color: var(--white);
-  color: var(--manatee);
+  color: var(--black);
   border-radius: var(--radius-5);
   padding: 15px 25px;
   font-size: var(--fs-5);
@@ -612,14 +612,14 @@ textarea.contact-input {
 .contact-item:not(:last-child) { margin-block-end: 20px; }
 
 .contact-icon {
-  background-color: var(--glaucous);
+  background-color: var(--white);
   font-size: 2.4rem;
   padding: 20px;
   border-radius: 50%;
 }
 
 .contact-item-title {
-  color: var(--white);
+  color: var(--black);
   font-family: var(--ff-barlow);
   font-size: var(--fs-4);
   font-weight: var(--fw-600);
@@ -627,7 +627,7 @@ textarea.contact-input {
 
 .contact-item-link { transition: var(--transition-1); }
 
-.contact-item-link:not(address):is(:hover, :focus) { color: var(--white); }
+.contact-item-link:not(address):is(:hover, :focus) { color: var(--black); }
 
 
 
