@@ -310,7 +310,9 @@ html {
 
 .elem,
 .rotate-img { display: none; }
-
+.elem elem-1{
+  color: #f44336;
+}
 .hero {
   background-image: url(assets/images/pexels-codioful-7135057.jpg);
   background-size: cover;
@@ -336,7 +338,7 @@ html {
 
 .hero-content {
   text-align: center;
-  color: var(--white);
+  color: var(--black);
 }
 
 .hero-title {
@@ -946,7 +948,7 @@ textarea.contact-input {
     left: -130px;
   }
 
-  .elem-1 .elem-title { color: var(--vivid-sky-blue); }
+  .elem-1 .elem-title { color: var(--klein-blue); }
 
   .elem-2 {
     bottom: 30px;
